@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: "MontSerrat",sans-serif
+}
+a{
+    text-decoration: none;
+}
+#header{
+    background-color: rgba(0,0,0,.4);
+    width: 100%;
+    position: absolute;
+}
+#login{
+    background-color: #01040d;
+    padding-top:123px ;
+    min-height: 870px;
+    background-image: url(https://www.sacocheio.tv/static/media/fundo.c301e42c.jpg);
+    background-repeat: no-repeat;
+}
+#login h1{
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    margin-top: 0px;
+    color: #ddd;
+    font-size: 30px;
+    font-weight: 500;
+}
+#login form input {
+    background-color: #444;
+    width: 350px;
+    margin-bottom: 10px;
+    height: 36px;
+    border: 1px outset #000;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ddd;
+    padding-left: 10px;
+}
+#login form button {
+    background-color:#edae21;
+    color: #000;
+    height: 36px;
+    border: 1px outset #edae21;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 20px;
+}
+#footer{
+    background-color: #01040d;
+    align-items: center;
+    align-content: center;
+    height: 83px;
+}
+.navbar{
+    position: relative;
+    padding: 0.5rem 1rem;
+    display: flex;
+}
+.hori{
+    flex-grow: 1;
+    flex-basis: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+}
+.mr-auto{
+    margin-right: auto;
+}
+.navbar-nav{
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+}
+.link{
+    margin: 0 10px;
+    color: #fff;
+    font-size: 18px;
+    align-self: center;
+    border-bottom: none;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.redirect{
+    margin-top:20px
+}
+#footer .col .link{
+    margin: 0 10px;
+    color: #474747;
+    font-size: 18px;
+    align-self: center;
+    border-bottom: none;
+}
+.link:hover{
+    color:#edae21 ;
+}
+#footer .col .link:hover{
+    color: #edae21;
+}
